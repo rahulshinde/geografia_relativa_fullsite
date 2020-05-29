@@ -71,7 +71,7 @@ header{
 }
 
 #home_link{
-  display: block;
+  display: inline-block;
 }
 
 #main_logo{
@@ -521,12 +521,5 @@ a{
     width: calc(100% - 2rem);
     border-right: 1px solid;
     box-sizing: border-box;
-  }
-}
-
-@media (max-width: 1000px){
-  html,
-  body{
-    font-size: 20px;
   }
 }
