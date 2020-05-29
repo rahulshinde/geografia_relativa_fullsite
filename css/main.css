@@ -453,6 +453,10 @@ a{
   color: #000;
 }
 
+footer{
+  display: none;
+}
+
 @media(hover: hover){
   #home_link:hover .logo_element{
     fill: #000;
@@ -541,11 +545,31 @@ a{
   .homepage_img {
     border: 0.5rem solid #fbeb04/*background-color: #fbeb04;*/;
   }
+  footer{
+    display: block;
+  }
+
+  #back_to_top{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: #fbeb04;
+    z-index: 10;
+    padding: 0.5rem 0.7rem;
+    box-sizing: border-box;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+  }
 }
 
 @media (max-width: 767px){
   #main_logo{
     height: 2rem;
+  }
+
+  #back_to_top{
+    bottom: auto;
+    top: 1rem;
   }
 
   #map_container{
