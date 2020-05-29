@@ -96,7 +96,7 @@ header{
   bottom: 1rem;
   left: 1rem;
   width: 30%;
-  height: calc(100vh - 8rem);
+  height: calc(100vh - 10rem);
 }
 
 #map_container svg{
