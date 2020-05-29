@@ -544,11 +544,15 @@ a{
 }
 
 @media (max-width: 767px){
+  #main_logo{
+    height: 2rem;
+  }
+
   #map_container{
     position: relative;
     margin-left: 1rem;
     width: 100%;
-    height: auto;
+    height: 50vh;
   }
 
   #work_container, 
