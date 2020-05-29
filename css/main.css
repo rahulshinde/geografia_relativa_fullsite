@@ -519,7 +519,21 @@ a{
     margin-left: 1rem;
     margin-bottom: 1rem;
     width: calc(100% - 2rem);
-    border: 1px solid;
+    border-right: 1px solid;
     box-sizing: border-box;
+  }
+
+  .artist_container h2,
+  .work_image h2{
+    width: 100%;
+  }
+  .artist_container div,
+  .work_image div,
+  .work_image img{
+    width: calc(50% - 0.5rem);
+  }
+  .work_image img:nth-child(even){
+    margin-right: 0;
+    transform-origin: top right;
   }
 }
