@@ -577,8 +577,8 @@ a{
   .installation_images:after{
     content: '';
     position: absolute;
-    left: 1rem;
-    right: 1rem;
+    left: calc(1rem - 1px);
+    right: calc(1rem - 1px);
     bottom: 0;
     border-bottom: 1px solid #000;
   }
