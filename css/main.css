@@ -579,6 +579,10 @@ footer{
     height: 50vh;
   }
 
+  #work_container:not(.artist_outer_container){
+    border-top: none;
+  }
+
   #work_container, 
   #about_container{
     margin-top: 1rem;
