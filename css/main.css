@@ -513,14 +513,16 @@ a{
 
   #work_container,
   #about_container{
+    position: relative;
     background-color: rgba(185,211,219,0.8);
     backdrop-filter: blur(10px);
     margin-top: 60vw;
     margin-left: 1rem;
     margin-bottom: 1rem;
     width: calc(100% - 2rem);
-    border-right: 1px solid;
+    border-right: 1px solid #000;
     box-sizing: border-box;
+    z-index: 10;
   }
 
   .artist_container h2,
@@ -536,7 +538,64 @@ a{
     margin-right: 0;
     transform-origin: top right;
   }
+  .homepage_img {
+    border: 0.5rem solid #fbeb04/*background-color: #fbeb04;*/;
+  }
 }
 
 @media (max-width: 767px){
+  #map_container{
+    position: relative;
+    margin-left: 1rem;
+    width: 100%;
+    height: auto;
+  }
+
+  #work_container, 
+  #about_container{
+    margin-top: 1rem;
+  }
+  
+  #about_container,
+  #work_container.artist_outer_container{
+    margin-bottom: 2rem;
+  }
+  .about_text:nth-child(even){
+    margin-left: 0;
+  }
+  #home_container{
+    position: sticky;
+    bottom: 1rem;
+    left: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .installation_images{
+    width: calc(100% + 2rem);
+    margin-left: -1rem;
+    border-bottom: none;
+    position: relative;
+  }
+
+  .installation_images:after{
+    content: '';
+    position: absolute;
+    left: 1rem;
+    right: 1rem;
+    bottom: 0;
+    border-bottom: 1px solid #000;
+  }
+
+  .installation_images img{
+    width: calc(100% - 2rem);
+    margin-left: 1rem;
+  }
+
+  .artist_container div,
+  .work_image div,
+  .work_image img,
+  .about_text{
+    width: calc(100%);
+  }
 }
