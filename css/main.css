@@ -297,9 +297,8 @@ a{
 
 
 .artist_outer_container{
-  background-color: rgba(185,211,219,0.6);
+  background-color: rgba(185,211,219,0.8);
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
 }
 
 #work_container{
@@ -514,14 +513,14 @@ a{
 
   #work_container,
   #about_container{
-    background-color: rgba(185,211,219,0.6);
+    background-color: rgba(185,211,219,0.8);
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
     margin-top: 60vw;
     margin-left: 1rem;
     margin-bottom: 1rem;
     width: calc(100% - 2rem);
     border-right: 1px solid;
+    box-sizing: border-box;
   }
 }
 
