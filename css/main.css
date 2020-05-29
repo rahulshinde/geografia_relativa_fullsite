@@ -70,6 +70,10 @@ header{
   box-sizing: border-box;
 }
 
+#home_link{
+  display: block;
+}
+
 #main_logo{
   height: 4rem;
   margin-bottom: 1vw;
