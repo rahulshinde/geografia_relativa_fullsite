@@ -538,12 +538,5 @@ a{
   }
 }
 
-@media (max-width: 900px){
-  html,
-  body{
-    font-size: 18px;
-  }
-}
-
 @media (max-width: 767px){
 }
