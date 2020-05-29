@@ -295,6 +295,7 @@ a{
 .artist_outer_container{
   background-color: rgba(185,211,219,0.6);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 #work_container{
@@ -504,12 +505,14 @@ a{
 
   .homepage_img{
     max-width: 80%;
+    max-height: 90%;
   }
 
   #work_container,
   #about_container{
     background-color: rgba(185,211,219,0.6);
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     margin-top: 60vw;
     margin-left: 1rem;
     margin-bottom: 1rem;
