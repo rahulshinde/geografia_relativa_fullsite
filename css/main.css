@@ -512,7 +512,7 @@ footer{
     top: 1rem;
     right: 1rem;
     width: 50%;
-    height: 80vh;
+    height: 70vh;
   }
 
   #home_container{
@@ -536,7 +536,7 @@ footer{
     position: relative;
     background-color: rgba(185,211,219,0.8);
     backdrop-filter: blur(10px);
-    margin-top: 60vw;
+    margin-top: calc(50vh + 2rem);
     margin-left: 1rem;
     margin-bottom: 1rem;
     width: calc(100% - 2rem);
