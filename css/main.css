@@ -610,6 +610,7 @@ footer{
   }
   .about_text:nth-child(even){
     margin-left: 0;
+    margin-bottom: 1rem;
   }
   #home_container{
     display: none;
