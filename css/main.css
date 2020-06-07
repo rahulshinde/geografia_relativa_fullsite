@@ -566,8 +566,8 @@ footer{
 
   #back_to_top{
     position: fixed;
-    bottom: 1rem;
-    right: 1rem;
+    bottom: calc(1rem + 1px);
+    right: calc(1rem + 1px);
     background-color: #fbeb04;
     z-index: 10;
     padding: 0.5rem 0.7rem;
@@ -584,7 +584,7 @@ footer{
 
   #back_to_top{
     bottom: auto;
-    top: 1rem;
+    top: calc(1rem + 1px);
   }
 
   #map_container{
