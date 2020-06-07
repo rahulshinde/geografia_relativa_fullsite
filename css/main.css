@@ -432,6 +432,7 @@ a{
   border-bottom: 1px solid #000;
   padding-top: 1rem;
   margin-top: 1rem;
+  margin-bottom: 1rem;
   padding-bottom: 1rem;
   padding-right: 1rem;
   padding-left: 1rem;
@@ -485,7 +486,12 @@ footer{
   #room_3:hover rect{
     fill:#fbeb04;
   }
+}
 
+#vcu_logo{
+  display: block;
+  margin-top: 1rem;
+  width: 8rem;
 }
 
 @media (max-width: 1100px){
