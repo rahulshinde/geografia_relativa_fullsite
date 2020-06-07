@@ -583,6 +583,11 @@ footer{
     height: 2rem;
   }
 
+  .work_image img:active{
+    transform-origin: top left;
+    transform: none;
+  }
+
   #back_to_top{
     bottom: auto;
     top: calc(1rem + 1px);
