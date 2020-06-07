@@ -149,6 +149,7 @@ a{
   width: calc(100% - 32%);
   margin-left: 32%;
   overflow: hidden;
+  z-index: 1;
   /*background-color: #fbeb04;*/
 }
 
@@ -310,6 +311,7 @@ a{
   border-left: 1px solid #000;
   border-top: 1px solid #000;
   box-sizing: border-box;
+  z-index: 10;
 }
 
 .room_heading{
@@ -358,11 +360,16 @@ a{
   width: calc(25% - 3rem/4);
   margin-bottom: 1rem;
   margin-right: 1rem;
+  cursor: zoom-in;
 }
 
 .work_image img:active{
   transform-origin: top left;
   transform: scale(2.07);
+}
+
+.work_image.bottom img:active{
+  transform-origin: bottom left;
 }
 
 .work_image h2{
@@ -430,6 +437,8 @@ a{
   padding-left: 1rem;
   box-sizing: border-box;
   flex-wrap: wrap;
+  position: relative;
+  z-index: 10;
 }
 
 .about_text:nth-child(even){
